@@ -25,5 +25,16 @@ function getComputerChoice() {
 //check if our function is working
 console.log(getComputerChoice());
 
+//create a function named getHumanChoice
+function getHumanChoice() {
+    //prompt the user to choose their move
+    let choice = prompt("What's your move?");
+    return choice;
+}
+
+//test if our function is working
+console.log(getHumanChoice());
+
+
 
 
